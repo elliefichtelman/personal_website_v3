@@ -1,2 +1,14 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
+$body-bg: #f9fafd;
+$body-color: #afb7c5;
+$font-family-base: Quattrocento;
+$font-family-sans-serif: Raleway;
+$headings-color: #7D9253;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 400;
 @import "bootstrap";
+
+// GLOBAL STYLES
+h2 {
+  font-family: "Homemade Apple";
+}
