@@ -1,11 +1,17 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 $body-bg: #f9fafd;
 $body-color: #afb7c5;
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
 $font-family-base: Quattrocento;
 $font-family-sans-serif: Raleway;
 $headings-color: #7D9253;
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 400;
+$primary: #7D9253;
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "bootstrap";
 
 // GLOBAL STYLES
