@@ -1,18 +1,18 @@
 <div class="container">
 
-<!---ABOUT SECTION--->
+  <!---ABOUT SECTION--->
 
   <div class="row">
     <section class="col-8 offset-2">
       <div class="text-center">
         <h1 class="text-uppercase">about</h1>
-        <%= image_tag 'ellie-fichtelman.jpg', class: 'rounded-circle img-fluid', style: 'height: 15rem;'%>
+        <%= image_tag 'ellie-fichtelman.jpg', class: 'rounded-circle img-fluid mt-3', style: 'height: 15rem;'%>
       </div>
-      <p>Hi, I’m Ellie! I began my professional life in both the education and fashion industries before realizing that the things I value most in life are my time and freedom. A career in tech allows me to work from anywhere in the world on projects that interest me. I’ve completed web design, visual design, front-end development and branding courses at Skillcrush, an amazing online bootcamp targeted at women in tech. Now, I’m looking to work with creative types for a competitive fee to build my portfolio!</p>
+      <p class='mt-3'>Hi, I’m Ellie! I began my professional life in both the education and fashion industries before realizing that the things I value most in life are my time and freedom. A career in tech allows me to work from anywhere in the world on projects that interest me. I’ve completed web design, visual design, front-end development and branding courses at Skillcrush, an amazing online bootcamp targeted at women in tech. Now, I’m looking to work with creative types for a competitive fee to build my portfolio!</p>
     </section>
   </div>
 
-<!---SERVICES SECTION--->
+  <!---SERVICES SECTION--->
 
   <div class="row">
     <section class="col-8 offset-2">
@@ -21,7 +21,7 @@
     </section>
   </div>
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-3">
     <section>
       <div class="row">
         <div class="col-4 offset-1">
@@ -47,66 +47,60 @@
     </section>
   </div>
 
-<!---WORK SECTION--->
+  <!---WORK SECTION--->
 
   <div class="row">
     <section class="text-center col-12">
       <h1 class="text-uppercase">work</h1>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-4 offset-1 text-left">
-          <%= image_tag 'criii-style-guide-thumbnail.png', class: 'img-fluid', style: 'height: 15rem;'%>
+          <%= image_tag 'criii-style-guide-thumbnail.png', class: 'img-fluid'%>
         </div>
         <div class="col-4 offset-2 text-right">
-          <%= image_tag 'rescue-me-thumbnail.png', class: 'img-fluid', style: 'height: 15rem;'%>
+          <%= image_tag 'rescue-me-thumbnail.png', class: 'img-fluid'%>
         </div>
       </div>
     </section>
   </div>
 
-<!---CONTACT SECTION--->
+  <!---CONTACT SECTION--->
 
-  <div class="row justify-content-center">
-    <section class="col-8 text-center">
-      <h1 class="text-uppercase">contact</h1>
-      <div class="row">
-
-        <div class="col-6">
-          <h2 class="text-left">get in touch</h2>
-          <div class="row">
-            <form action="https://formspree.io/ellie.fichtelman@gmail.com" method="POST" class="form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" name="name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="E-mail" name="email">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" placeholder="Message" name="message" rows="8"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">send</button>
-            </form>
-          </div>
+  <section class="row mt-3">
+    <h1 class="text-uppercase text-center col-12">contact</h1>
+    <div class="col-4 offset-1 mt-3">
+      <h2 class="text-left">get in touch</h2>
+      <form action="https://formspree.io/ellie.fichtelman@gmail.com" method="POST" class="form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name" name="name">
         </div>
-
-        <div class="col-6">
-          <h2 class="text-left">write a testimonial</h2>
-          <div class="row">
-            <form action="https://formspree.io/ellie.fichtelman@gmail.com" method="POST" class="form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" name="name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="E-mail" name="email">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" placeholder="Message" name="message" rows="8"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">send</button>
-            </form>
-          </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="E-mail" name="email">
         </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Message" name="message" rows="8"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-block btn-primary w-50">Send</button>
+        </div>
+      </form>
+    </div>
 
-      </div>
-    </section>
-  </div>
+    <div class="col-4 offset-2 mt-3">
+      <h2 class="text-left">write a testimonial</h2>
+      <form action="https://formspree.io/ellie.fichtelman@gmail.com" method="POST" class="form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name" name="name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="E-mail" name="email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Message" name="message" rows="8"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-block btn-primary w-50">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </div>
